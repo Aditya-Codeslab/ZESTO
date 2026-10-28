@@ -1,0 +1,6 @@
+{
+  "name": "Tavola - Universal Restaurant Ordering Platform",
+  "description": "ZESTO is the ultra-stylish, multi-tenant restaurant ordering SaaS platform where restaurants manage menus and receive live direct orders with 0% commission.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

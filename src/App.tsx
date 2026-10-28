@@ -34,6 +34,7 @@ import { OverviewTab } from './components/dashboard/OverviewTab';
 import { MenuManagementTab } from './components/dashboard/MenuManagementTab';
 import { OrdersTab } from './components/dashboard/OrdersTab';
 import { SettingsTab } from './components/dashboard/SettingsTab';
+import { Chatbot } from './components/chat/Chatbot';
 
 export default function App() {
   // App navigation state
@@ -409,6 +410,9 @@ export default function App() {
           showToast(config.isConfigured ? 'Connected to Supabase PostgreSQL!' : 'Saved configuration');
         }}
       />
+
+      {/* Floating ZESTO AI Ollama Assistant */}
+      <Chatbot />
     </div>
   );
 }
